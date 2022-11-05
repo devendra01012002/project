@@ -138,16 +138,41 @@ body{
     width: 100vw;
     margin-bottom: 0px;
    text-align: center;
-   background-color: grey;
+   background-color:rgb(54, 52, 52) ;
+   justify-content: space-around;
 }
 .footer .bottomicons {
      color: white;
-     margin-left: 40vw;    
+     padding-top: 5vh;  
 }
 .footer .bottomicons i{
+    height: 5rem;
+    width:5rem;
     margin-left: 20px;
-    font-size: 1.5em;
     border: 1px solid white;
-    border-radius: 330%;
+    border-radius: 70%;
+    line-height: 5rem;
+    font-size: 3rem;
+    color: #fff;;
     
+}
+.footer .bottomicons i:hover{
+    background-color: burlywood;
+}
+.footer .navfoot a{
+    color:white ;
+    font-size: 1.5rem;
+    margin: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+.footer .navfoot{
+    margin-top: 6vh;
+}
+.footer .navfoot a:hover{
+    background-color: burlywood;
+
+
 }
